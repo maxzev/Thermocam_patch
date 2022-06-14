@@ -1,0 +1,24 @@
+From 81b96bb3df431e940d23a8502c72455fe9f72313 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Wed, 9 Feb 2022 23:36:31 +0300
+Subject: [PATCH] cleanup
+
+---
+ Firmware_V3/src/general/globalvariables.cpp | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/Firmware_V3/src/general/globalvariables.cpp b/Firmware_V3/src/general/globalvariables.cpp
+index a555145..fd7eaf9 100644
+--- a/Firmware_V3/src/general/globalvariables.cpp
++++ b/Firmware_V3/src/general/globalvariables.cpp
+@@ -33,7 +33,6 @@ uint16_t fwVersion = 302;
+ unsigned short* bigBuffer;
+ //160x120 buffer
+ unsigned short* smallBuffer;
+-unsigned short* MySmallBuffer; //todo: for test!
+ 
+ //Timer
+ Metro screenOff;
+-- 
+2.25.1
+
